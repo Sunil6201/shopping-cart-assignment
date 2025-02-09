@@ -11,7 +11,7 @@ This is a simple shopping cart implementation in TypeScript that allows users to
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/shopping-cart-assignment.git
+git clone https://github.com/SaltmineSGBP/shopping-cart-assignment.git
 cd shopping-cart-assignment
 ```
 
@@ -49,10 +49,6 @@ npx jest
 - Prices are fetched from an external API dynamically.
 - Rounding rules follow JavaScript's built-in behavior.
 
-## 📧 Submission Instructions
-1. Push your final code to the **public GitHub repository**.
-2. Send the repository link via email.
-3. Ensure all tests pass before submission.
 
-✅ **Done!** 🎉 Your assignment is complete.
+✅ **Done!** 🎉 
 
