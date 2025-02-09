@@ -74,3 +74,36 @@ The below is a sample with the correct values you can use to confirm your calcul
 * ❌ Submit any form of app, such as web APIs, browser, desktop, or command-line applications.
 * ❌ Add unnecessary layers of abstraction.
 * ❌ Add unnecessary patterns/ architectural features that aren’t called for e.g. persistent storage.
+# Shopping Cart Assignment 🛒
+
+## 📌 Description
+This is a simple shopping cart implementation in TypeScript. It allows users to:
+- Add products to the cart.
+- Fetch product prices from an external API.
+- Calculate subtotal, tax (12.5%), and total payable.
+- View the cart summary.
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```sh
+git clone <https://github.com/SaltmineSGBP/shopping-cart-assignment.git>
+cd shopping-cart-assignment
+
+npm install
+
+Run the mock Price API to serve product prices:
+npm run serve-products
+
+
+Run the shopping cart logic:
+npx ts-node src/index.ts
+
+Execute unit tests with:
+npx jest
+
+What This Tests:
+Adding products to the cart.
+Fetching prices from the API.
+Cart calculations (Subtotal, Tax, and Total).
+Correct quantities are maintained.
